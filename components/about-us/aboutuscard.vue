@@ -40,7 +40,9 @@
         "
       >
         <nuxt-img
-          src="/aboutus/1.jpeg"
+          src="/aboutus/1.webp"
+          height="853"
+          width="1280"
           class="<lg:(w-1/2 h-1/2) w-full h-full"
           alt="WHAT IS SDG?"
         />
@@ -48,7 +50,9 @@
     </div>
 
     <nuxt-img
-      src="/aboutus/4.png"
+      src="/aboutus/4.webp"
+      height="495"
+      width="1263"
       class="arrow <lg:(hidden) w-3/5 mx-auto my-0"
       alt="arrow"
     />
@@ -80,7 +84,9 @@
         "
       >
         <nuxt-img
-          src="/aboutus/2.jpeg"
+          src="/aboutus/2.webp"
+          height="853"
+          width="1280"
           class="<lg:(w-1/2 h-1/2) w-full h-full"
           alt="WHAT WE DO?"
         />
@@ -101,7 +107,9 @@
     </div>
 
     <nuxt-img
-      src="/aboutus/4_2.png"
+      src="/aboutus/4_2.webp"
+      height="495"
+      width="1263"
       class="arrow <lg:(hidden) w-3/5 mx-auto my-0"
       alt="arrow"
     />
@@ -148,7 +156,9 @@
         "
       >
         <nuxt-img
-          src="/aboutus/3.jpeg"
+          src="/aboutus/3.webp"
+          height="851"
+          width="1280"
           class="<lg:(w-1/2 h-1/2) w-full h-full"
           alt="OUR AREAS OF INTEREST"
         />

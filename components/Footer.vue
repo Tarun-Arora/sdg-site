@@ -10,6 +10,7 @@
         <div class="ml-10 text-base">
           <a
             target="_blank"
+            rel="noreferrer"
             aria-label="Code of Conduct"
             href="https://github.com/COPS-IITBHU/Code-Of-Conduct/blob/master/README.md"
             style="text-decoration-line: none"
@@ -22,10 +23,10 @@
         <p class="text-2xl font-semibold">Quick Links</p>
         <br />
         <ul class="text-xl">
-          <li><a href="/">Home</a></li>
-          <li><a href="/blogs">Blogs</a></li>
-          <li><a href="/portfolio">Portfolio</a></li>
-          <li><a href="/aboutus">About Us</a></li>
+          <li class="my-2"><a href="/">Home</a></li>
+          <li class="my-2"><a href="/blogs">Blogs</a></li>
+          <li class="my-2"><a href="/portfolio">Portfolio</a></li>
+          <li class="my-2"><a href="/aboutus">About Us</a></li>
         </ul>
       </div>
       <div class="flex">
