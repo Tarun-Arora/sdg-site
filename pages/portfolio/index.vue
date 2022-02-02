@@ -88,6 +88,7 @@
                 rounded-lg
                 hover:bg-hex-fff hover:text-black
               "
+              aria-label="view-team"
               @click="showSdg()"
             >
               View Team
@@ -122,6 +123,7 @@
                 rounded-lg
                 hover:bg-hex-fff hover:text-black
               "
+              aria-label="view-alums"
               @click="showAlums()"
             >
               View Team
@@ -144,9 +146,9 @@
         </h2>
 
         <div
-          v-for="thirdYearite in thirdYearites"
+          v-for="(thirdYearite, i) in thirdYearites"
           id="mem"
-          :key="thirdYearite"
+          :key="i"
           class="m-auto mt-20 -mx-25 md:m-auto lg:m-auto"
         >
           <transition appear @before-enter="beforeEnter" @enter="enter">
@@ -180,9 +182,9 @@
         </h2>
 
         <div
-          v-for="secondYearite in secondYearites"
+          v-for="(secondYearite, i) in secondYearites"
           id="mem"
-          :key="secondYearite"
+          :key="i"
           class="m-auto mt-20 -mx-25 md:m-auto lg:m-auto"
         >
           <transition appear @before-enter="beforeEnter" @enter="enter">
@@ -208,9 +210,9 @@
           <div class="line"></div>
         </h2>
         <div
-          v-for="alum in alums"
+          v-for="(alum, i) in alums"
           id="mem"
-          :key="alum"
+          :key="i"
           class="m-auto mt-20 -mx-20 md:m-auto lg:mx-auto"
         >
           <transition appear @before-enter="beforeEnter" @enter="enter">

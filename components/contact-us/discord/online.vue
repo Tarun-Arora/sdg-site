@@ -1,6 +1,6 @@
 <template>
   <iframe
-    :title="uniqueTitle"
+    title="Discord"
     :src="`https://discord.com/widget?id=${serverid}&theme=dark`"
     allowtransparency="true"
     frameborder="0"

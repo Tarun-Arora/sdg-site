@@ -35,25 +35,12 @@
 </template>
 
 <script lang="ts">
-// eslint-disable-next-line import/named
-import { PropType } from 'vue';
-
-interface itemsObject {
-  name: string;
-  url: string;
-  icon: string;
-  height: Number;
-  width: Number;
-  style: {
-    color: string;
-  };
-}
 export default {
   props: {
     items: {
-      type: Object as PropType<itemsObject>,
+      type: Array,
       default() {
-        return { object: 'items' };
+        return [];
       },
     },
   },

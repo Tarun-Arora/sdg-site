@@ -5,6 +5,8 @@
         <img
           class="mx-auto object-contain p-4 h-50 w-50"
           :src="logo"
+          height="280"
+          width="280"
           alt="Club of Programmers IIT BHU"
         />
         <div class="ml-10 text-base">
@@ -73,7 +75,7 @@ export default {
   name: 'Footer',
   data() {
     return {
-      logo: require('../assets/Images/COPS-Logo.jpeg'),
+      logo: require('../assets/Images/COPS-Logo.webp'),
       SocialMedia: [
         {
           icon: 'mdi:github',
