@@ -23,7 +23,8 @@
           md:flex-row
         "
       >
-        <img
+        <nuxt-img
+          height="500"
           class="w-full lg:w-half min-w-250px object-cover md:h-lg"
           :src="imgAddress"
           alt="ProjectImg"
@@ -48,8 +49,9 @@
           <ul class="techList list-none">
             <li v-for="tech in project.tech" :key="tech">{{ tech }}</li>
           </ul>
-          <a :href="project.url" target="_blank">
+          <a :href="project.url" target="_blank" rel="noreferrer">
             <button
+              aria-label="Open App"
               class="
                 contentBtn
                 text-white
